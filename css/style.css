@@ -33,12 +33,14 @@ p{
     line-height: 150px;
     background-color: red;
     display: inline-block;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 2%;
 }
 #box-ghost{
     background-color: rgb(243, 243, 243);
     transition: background-color 3s;
+    border: 1px solid red;
+
 }
 #box-ghost:hover{
     background-color: red;
@@ -57,4 +59,13 @@ p{
 }
 #box-3:hover{
     border-radius: 50%;
+}
+
+#box-4{
+    transition: background-color 1s;
+
+}
+
+#box-4:hover{
+    background-color:rgb(243, 243, 243) ;
 }
