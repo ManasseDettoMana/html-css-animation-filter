@@ -51,3 +51,10 @@ p{
 #box-2:active{
     width: calc(100% - 4%);
 }
+
+#box-3{
+    transition: border-radius .5s;
+}
+#box-3:hover{
+    border-radius: 50%;
+}
