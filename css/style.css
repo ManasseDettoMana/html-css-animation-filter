@@ -132,6 +132,9 @@
     text-align: center;
     text-decoration: none;
 }
+
+
+
 .ex-12-top-white, .ex-13-top-white {
     position: absolute;
     top: -10px;
@@ -142,6 +145,41 @@
 }
 
 
+.ex-12-button:hover .ex-12-top-white{
+    animation: l-r 2s linear;
+}
+@keyframes l-r{
+
+    0%{
+        left: 10%;
+    }
+
+    50%{
+        left: calc(90% - 60px);
+    }
+
+    100%{
+        left: 10%;
+    } 
+} 
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: r-l 2s linear;
+}
+@keyframes r-l {
+    0%{
+        right: 20%;
+    }
+
+    50%{
+        right: calc(90% - 60px);
+    }
+
+    100%{
+        right: 20%;
+    } 
+}
+
 .ex-12-bottom-white, .ex-13-bottom-white {
     position: absolute;
     bottom: -10px;
@@ -150,3 +188,4 @@
     width: 60px;
     height: 20px;
 }
+
