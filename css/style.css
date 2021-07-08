@@ -20,10 +20,26 @@ header>h1{
     height: 150px;
     border: 1px solid lightgray;
 }
+main>section{
+    margin-top: 50px;
+}
+p{
+    margin-top: 15px;
+}
 
 .box{
     width: 100px;
     height: 100px;
     line-height: 150px;
+    background-color: red;
+    display: inline-block;
+    border: 1px solid red;
+    margin: 2%;
+}
+#box-ghost{
+    background-color: rgb(243, 243, 243);
+    transition: background-color 3s;
+}
+#box-ghost:hover{
     background-color: red;
 }
