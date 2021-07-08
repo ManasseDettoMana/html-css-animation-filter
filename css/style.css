@@ -91,10 +91,10 @@
     font-size: 60px;
     /* animation-name: mymove; */
     
-    animation: rotation 1s linear infinite;
+    animation: full-spin 1s linear infinite;
 }
 
- @keyframes rotation {
+@keyframes full-spin {
     0%{
         transform: rotate(1turn);
     }
@@ -102,9 +102,18 @@
 
 .ex-11-icon {
     font-size: 60px;
-    animation: spin 1s linear infinite;
 }
-.ex-11-img:hover
+.ex-11-icon:hover{
+    animation: half-spin 2s cubic-bezier(0,0,0,0);
+}
+@keyframes half-spin {
+    85%{
+        transform: rotate(270deg);
+    }
+}
+
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
