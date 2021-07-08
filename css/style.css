@@ -43,3 +43,11 @@ p{
 #box-ghost:hover{
     background-color: red;
 }
+
+#box-2{
+    transition: width ease 2s;
+}
+
+#box-2:active{
+    width: calc(100% - 4%);
+}
